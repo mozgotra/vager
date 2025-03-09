@@ -1,0 +1,128 @@
+
+body {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+body{
+    height: 900px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main_reg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.reg_p{
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+.reg_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 531px;
+    height: 666px;
+    border-radius: 30px;
+    flex-direction: column;
+}
+.btn_reg{
+    margin: 0;
+    font-size: 24px;
+    width: 267px;
+    height: 50px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 25px;
+    color: white;
+    background-color: black;
+}
+.inp_reg{
+    width: 273px;
+    height: 33px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    padding-left: 5px;
+    border: none;
+}
+
+
+
+
+.div_voeti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 760px;
+    height: 500px;
+    border-radius: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+@media (max-width:320px) {
+    .reg_p{
+        font-size: 24px;
+    }
+    .reg_div{ 
+        width: 280px;
+    }
+    .btn_reg{
+        margin: 0;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .inp_reg{
+        width: 153px;
+        height: 33px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        padding-left: 5px;
+    }
+    .div_voeti{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #D9D9D9;
+        width: 760px;
+        height: 500px;
+        border-radius: 30px;
+    }
+    .form{
+        display: flex;
+        flex-direction: column;
+    }
+    
+.div_voeti{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 500px;
+    border-radius: 30px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
